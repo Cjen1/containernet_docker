@@ -1,4 +1,4 @@
-RUN add-apt-repository ppa:deadsnakes/ppa -y \
+add-apt-repository ppa:deadsnakes/ppa -y
 apt update 
 apt upgrade -y
 apt install -y \
